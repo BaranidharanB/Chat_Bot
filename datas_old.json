@@ -1,0 +1,89 @@
+{
+  "datas": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "How to update your Subscription",
+        "LiDar Booting Error?",
+        "What does different colors of roll bar lights mean?",
+        "Machine engine won't turn over?",
+        "Error Pausing mow because seat is occupied or brake is released",
+        "No PIN in the machine LCD when trying to connect machine to mobile app",
+        "Machine has false objects detection",
+        "Can I mow at night",
+        "Can I store the machine on a trailer overnight"
+      ],
+      "responses": [
+        "Please contact customer support with your subscription needs (920) 634-2227 ex 8100",
+        "Machine is at full throttle. Make sure throttle is set at idle. Wait for Lidars to boot, set full throttle and resume",
+        "Kindy checkout https://amroperator.com/Images/StatusLightGuide2.png",
+        "Make sure robot power button is off and the Wired E-Stop is released. PTO switch need to be down. Machine engine should turn over",
+        "Make sure nobody in on the seat and make sure the brake button is not illuminated",
+        "Make sure no one is using the machine",
+        "Make sure Lap bars are on down position. If a lot of dust exists in the mowing area, please see Operator's Manual",
+        "Yes, you can run your mower at night",
+        "Yes, you can store your machine on a trailer overnight"
+
+      ]
+    },
+    {
+      "tag": "customer support",
+      "patterns": [
+        "Speak with customer care representative",
+        "Working hours of customer care representative"
+
+      ],
+      "responses": [
+        "Please contact customer support  (920) 634-2227 ex 8100",
+        "We work 24/7, feel free to call (920) 634-2227 ex 8100 "
+
+      ]
+    },
+    {
+      "tag": "Documents",
+      "patterns": [
+        "I need a Manual to operate the machine?",
+        "Do you have a manual for RCM portal?",
+        "Can I get manual for Mobile app ?"
+      ],
+      "responses": [
+        "Yes, we do have a manual please checkout https://amroperator.com/Download.aspx?File=AMR_Operator_Manual.pdf",
+        "Yes, we do have a manual please checkout https://amroperator.com/Download.aspx?File=Manual_Updated_4.pdf",
+        "Yes,  please checkout https://amroperator.com/Files/MobileAppOperator-Guide.pdf"
+        
+      ]
+    }
+
+  ]
+}
